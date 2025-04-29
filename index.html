@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Movie Theater Website</title>
+    </head>
+    <style>
+        body{
+           background-image: url('pic2.jpg');
+           background-repeat: no-repeat;
+           background-size: cover;
+        }
+    </style>
+    <!-- Style page -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <body>
+    <section id="theater">
+        <!--Theater name -->
+        <p>Sara's Wonder Theater🎬🎥</p>
+
+        <!-- Video -->
+        <video controls id="video">
+            <source src="wednesdaytrailer.mp4" type="video/mp4">
+            "Yor Browser doesn't Support This Video"
+        </video>
+        <br>
+
+        <!-- Buttons -->
+        <div>
+            <button onclick="location.reload()">🔁Play Again</button>
+            <button onclick="alert('Thanks for rating!')">⭐Rate Movie</button>
+        </div>
+    </section>
+    </body>
+</html>
